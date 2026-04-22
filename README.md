@@ -46,15 +46,3 @@ if __name__ == "__main__":
     app.run()
 
 
-📌 Project 3: Azure Functions (Serverless)
-Overview
-
-Built a serverless HTTP-triggered function that responds dynamically to user input.
-
-Key Concepts
-Serverless architecture
-Event-driven computing
-HTTP-triggered APIs
-Pay-per-execution model
-
-
