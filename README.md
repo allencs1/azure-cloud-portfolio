@@ -5,7 +5,7 @@ Each project focuses on a different cloud service model: IaaS, PaaS, and Serverl
 
 ---
 
-## 📌 Project 1: Virtual Machine (IaaS)
+##  Project 1: Virtual Machine (IaaS)
 
 ### Overview
 Deployed and configured a Linux Virtual Machine in Azure. Installed Apache and hosted a basic webpage.
@@ -17,9 +17,7 @@ Deployed and configured a Linux Virtual Machine in Azure. Installed Apache and h
 - Web server setup (Apache)
 
 
----
-
-## 📌 Project 2: App Service (PaaS)
+##  Project 2: App Service (PaaS)
 
 ### Overview
 Deployed a Python Flask web application using Azure App Service without managing servers.
@@ -30,24 +28,8 @@ Deployed a Python Flask web application using Azure App Service without managing
 - Web app hosting without infrastructure management
 - Dynamic responses using query parameters
 
-### Example Code
 
-```python
-from flask import Flask, request
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    name = request.args.get("name", "Guest")
-    return f"Hello {name} from Azure App Service"
-
-if __name__ == "__main__":
-    app.run()
-```
-
-
-## 📌 Project 3: Azure Functions (Serverless)
+## Project 3: Azure Functions (Serverless)
 
 ### Overview
 Built a serverless HTTP-triggered function that responds dynamically to user input.
