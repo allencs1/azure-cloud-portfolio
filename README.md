@@ -32,7 +32,7 @@ Deployed a Python Flask web application using Azure App Service without managing
 
 ### Example Code
 
-'''python
+```python
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -43,7 +43,8 @@ def home():
     return f"Hello {name} from Azure App Service"
 
 if __name__ == "__main__":
-    app.run()```
+    app.run()
+```
 
 📌 Project 3: Azure Functions (Serverless)
 Overview
