@@ -32,7 +32,7 @@ Deployed a Python Flask web application using Azure App Service without managing
 
 ### Example Code
 
-```python
+'''python
 from flask import Flask, request
 
 app = Flask(__name__)
