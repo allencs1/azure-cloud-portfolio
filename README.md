@@ -43,7 +43,7 @@ def home():
     return f"Hello {name} from Azure App Service"
 
 if __name__ == "__main__":
-    app.run()---
+    app.run()```
 
 📌 Project 3: Azure Functions (Serverless)
 Overview
