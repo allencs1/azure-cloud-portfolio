@@ -40,3 +40,17 @@ Built a serverless HTTP-triggered function that responds dynamically to user inp
 - HTTP-triggered APIs
 - Pay-per-execution model
 
+## 📌 Project 4: Terraform VM Deployment (IaC)
+
+### Overview
+Automated the deployment of an Azure Virtual Machine using Terraform from a Linux environment.
+
+### Key Concepts
+- Infrastructure as Code
+- Terraform init, plan, apply, destroy
+- Resource groups
+- Virtual networks
+- Subnets
+- Public IPs
+- Network interfaces
+- Virtual Machines
