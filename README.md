@@ -17,7 +17,7 @@ Deployed and configured a Linux Virtual Machine in Azure. Installed Apache and h
 - Web server setup (Apache)
 
 ![AzureVM](./screenshots/VM-project-Overview.png)
-![Webpage](./screenshots/Azure-VMwebpage-updated.png)
+![Webpage](./screenshots/azure-vm-webpage.png)
 ![SSH](./screenshots/SSH-login-ProjectVM.png)
 
 
