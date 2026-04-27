@@ -18,7 +18,7 @@ Deployed and configured a Linux Virtual Machine in Azure. Installed Apache and h
 
 ![AzureVM](./screenshots/Azure-VM.png)
 ![Webpage](./screenshots/Azure-VMwebpage-updated.png)
-![SSH](./screenshots/SSHlogin-Azure.png)
+![SSH](./screenshots/SSH-login-ProjectVM.png)
 
 
 ##  Project 2: App Service (PaaS)
