@@ -64,4 +64,4 @@ Automated the deployment of an Azure Virtual Machine using Terraform from a Linu
 - Network interfaces
 - Virtual Machines
 
-![Terraform VM](./screenshots/Terraform-Azureportal-VM.png)
+![Terraform Apply](./screenshots/Terraform-apply-success.png)
