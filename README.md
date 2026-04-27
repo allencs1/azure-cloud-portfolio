@@ -65,3 +65,4 @@ Automated the deployment of an Azure Virtual Machine using Terraform from a Linu
 - Virtual Machines
 
 ![Terraform Apply](./screenshots/Terraform-apply-success.png)
+![Terraform VM](./screenshots/Terraform-webpage.png)
