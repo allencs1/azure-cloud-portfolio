@@ -16,7 +16,7 @@ Deployed and configured a Linux Virtual Machine in Azure. Installed Apache and h
 - Public vs Private IP addressing
 - Web server setup (Apache)
 
-![AzureVM](./screenshots/Azure-VM.png)
+![AzureVM](./screenshots/VM-project-Overview.png)
 ![Webpage](./screenshots/Azure-VMwebpage-updated.png)
 ![SSH](./screenshots/SSH-login-ProjectVM.png)
 
