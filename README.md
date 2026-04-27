@@ -47,7 +47,7 @@ Built a serverless HTTP-triggered function that responds dynamically to user inp
 - Pay-per-execution model
 
 ![Dynamic](./screenshots/Azure-functions-Dynamic.png)
-![static](./screenshots/
+![static](./screenshots/Azure-functions-Static.png)
 
 ## 📌 Project 4: Terraform VM Deployment (IaC)
 
