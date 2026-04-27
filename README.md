@@ -32,6 +32,8 @@ Deployed a Python Flask web application using Azure App Service without managing
 - Web app hosting without infrastructure management
 - Dynamic responses using query parameters
 
+  ![azureapp](./screenshots/appservice-webpage.png)
+
 
 ## Project 3: Azure Functions (Serverless)
 
