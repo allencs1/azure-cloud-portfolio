@@ -42,9 +42,9 @@ Deploy and manage a Linux Virtual Machine to understand infrastructure provision
 ---
 
 ## 📸 Screenshot
-
-
-
+![Webpage](./screenshots/azure-vm-webpage.png)
+![Overview](./screenshots/VM-project-Overview.png)
+![SSH](./SSH-login-ProjectVM.png)
 
 ---
 
@@ -80,7 +80,7 @@ Deploy a web application without managing infrastructure.
 
 ## 📸 Screenshot
 
-![App Service](screenshots/cloudfrontwebpage.png)
+![App Service](screenshots/appservice-webpage.png)
 
 ---
 
@@ -118,7 +118,8 @@ Build a serverless function triggered by HTTP requests.
 
 ## 📸 Screenshot
 
-![Function](screenshots/function.png)
+![Static](screenshots/Azure-functions-Static.png)
+![Dynamic](./screenshots/Azure-functions-Dynamic.png)
 
 ---
 
