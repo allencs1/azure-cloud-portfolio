@@ -54,7 +54,7 @@ I created an Azure Function that executes when an HTTP request is received. The 
 
 ![Static  Output](../screenshots/Azure-functions-Static.png)
 
-![Dynamic Output](../screenshots/Azure-functions-Dynamic.png)
+![Dynamic Output](../screenshots/Azure-functions-dynamic.png)
 
 ---
 
