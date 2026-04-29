@@ -44,7 +44,7 @@ Deploy and manage a Linux Virtual Machine to understand infrastructure provision
 ## 📸 Screenshot
 ![Webpage](./screenshots/azure-vm-webpage.png)
 ![Overview](./screenshots/VM-project-Overview.png)
-![SSH](./SSH-login-ProjectVM.png)
+![SSH](./screenshots/SSH-login-ProjectVM.png)
 
 ---
 
