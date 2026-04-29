@@ -38,10 +38,10 @@ I created a Linux virtual machine in Azure, connected to it using SSH, installed
 ![SSH Login](../screenshots/SSH-login-ProjectVM.png)
 
 ### Web Server Running
-![Webpage](../screenshots/Terraform-webpage.png)
+![Webpage](../screenshots/azure-vm-webpage.png)
 
-### Terraform Apply
-![Terraform](../screenshots/Terraform-apply-success.png)
+### Portal Overview
+![VM Overview](../screenshots/VM-project-Overview.png)
 
 
 ---
