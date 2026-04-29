@@ -40,6 +40,9 @@ I created a Linux virtual machine in Azure, connected to it using SSH, installed
 ### Web Server Running
 ![Webpage](../screenshots/Terraform-webpage.png)
 
+### Terraform Apply
+![Terraform](../screenshots/Terraform-apply-success.png)
+
 
 ---
 
