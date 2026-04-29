@@ -1,68 +1,167 @@
-# Azure Cloud Projects (Beginner → Foundation)
+# 📌 Azure Cloud Portfolio
 
-This repository contains hands-on projects demonstrating core cloud concepts using Microsoft Azure.  
-Each project focuses on a different cloud service model: IaaS, PaaS, and Serverless.
+This repository demonstrates hands-on cloud projects using **Microsoft Azure**, progressing from foundational concepts to more advanced system design.
 
 ---
 
-##  Project 1: Virtual Machine (IaaS)
+# 🟦 Project 1: Virtual Machine (IaaS)
 
-### Overview
-Deployed and configured a Linux Virtual Machine in Azure. Installed Apache and hosted a basic webpage.
+## 🎯 Objective
 
-### Key Concepts
-- Infrastructure as a Service (IaaS)
-- SSH access and server management
-- Public vs Private IP addressing
-- Web server setup (Apache)
+Deploy and manage a Linux Virtual Machine to understand infrastructure provisioning in Azure.
 
-![AzureVM](./screenshots/VM-project-Overview.png)
-![Webpage](./screenshots/azure-vm-webpage.png)
-![SSH](./screenshots/SSH-login-ProjectVM.png)
+---
+
+## 🏗️ Architecture
+
+* Virtual Machine (Linux)
+* Public IP (external access)
+* Private IP (internal network)
+* Network Security Group (firewall)
+* Apache Web Server
+
+---
+
+## ⚙️ What I Did
+
+* Created a Linux VM in Azure
+* Configured SSH and HTTP access
+* Connected via SSH
+* Installed Apache
+* Hosted a basic webpage
+
+---
+
+## 🧠 What’s Happening
+
+* Azure provisions a virtualized server
+* Public IP exposes the VM to the internet
+* NSG controls inbound traffic
+* Apache serves web content on port 80
+
+---
+
+## 📸 Screenshot
 
 
-##  Project 2: App Service (PaaS)
-
-### Overview
-Deployed a Python Flask web application using Azure App Service without managing servers.
-
-### Key Concepts
-- Platform as a Service (PaaS)
-- Application deployment using Azure CLI
-- Web app hosting without infrastructure management
-- Dynamic responses using query parameters
-
-  ![azureapp](./screenshots/appservice-webpage.png)
 
 
-## Project 3: Azure Functions (Serverless)
+---
 
-### Overview
-Built a serverless HTTP-triggered function that responds dynamically to user input.
+# 🟩 Project 2: App Service (PaaS)
 
-### Key Concepts
-- Serverless architecture
-- Event-driven computing
-- HTTP-triggered APIs
-- Pay-per-execution model
+## 🎯 Objective
 
-![Dynamic](./screenshots/Azure-functions-Dynamic.png)
-![static](./screenshots/Azure-functions-Static.png)
+Deploy a web application without managing infrastructure.
 
-## 📌 Project 4: Terraform VM Deployment (IaC)
+---
 
-### Overview
-Automated the deployment of an Azure Virtual Machine using Terraform from a Linux environment.
+## 🏗️ Architecture
 
-### Key Concepts
-- Infrastructure as Code
-- Terraform init, plan, apply, destroy
-- Resource groups
-- Virtual networks
-- Subnets
-- Public IPs
-- Network interfaces
-- Virtual Machines
+* Azure App Service
+* Python Flask App
 
-![Terraform Apply](./screenshots/Terraform-apply-success.png)
-![Terraform VM](./screenshots/Terraform-webpage.png)
+---
+
+## ⚙️ What I Did
+
+* Deployed Flask app using Azure CLI
+* Configured dynamic responses
+* Accessed app via public URL
+
+---
+
+## 🧠 What’s Happening
+
+* Azure manages OS and runtime
+* Requests handled by managed infrastructure
+
+---
+
+## 📸 Screenshot
+
+![App Service](screenshots/cloudfrontwebpage.png)
+
+---
+
+# 🟨 Project 3: Azure Functions (Serverless)
+
+## 🎯 Objective
+
+Build a serverless function triggered by HTTP requests.
+
+---
+
+## 🏗️ Architecture
+
+* Azure Function App
+* HTTP Trigger
+* JSON Response
+
+---
+
+## ⚙️ What I Did
+
+* Created function app
+* Built HTTP-triggered function
+* Returned dynamic JSON
+
+---
+
+## 🧠 What’s Happening
+
+* Code runs only when triggered
+* Azure allocates compute on demand
+* No server management required
+
+---
+
+## 📸 Screenshot
+
+![Function](screenshots/function.png)
+
+---
+
+# 🟥 Project 4: Terraform VM (IaC)
+
+## 🎯 Objective
+
+Automate infrastructure deployment using Terraform.
+
+---
+
+## 🏗️ Architecture
+
+* Resource Group
+* Virtual Network
+* Subnet
+* Public IP
+* Network Interface
+* Virtual Machine
+
+---
+
+## ⚙️ What I Did
+
+* Wrote Terraform config
+* Ran `terraform init`, `apply`
+* Deployed VM
+* Verified via public IP
+* Cleaned up with `terraform destroy`
+
+---
+
+## 🧠 What’s Happening
+
+* Terraform uses Azure APIs
+* State file tracks resources
+* Infrastructure is reproducible
+
+---
+
+## 📸 Screenshot
+
+![Terraform Apply](screenshots/Terraform-apply-success.png)
+![VM Webpage](screenshots/Terraform-webpage.png)
+
+---
