@@ -67,6 +67,6 @@ I created an Azure Function that executes when an HTTP request is received. The 
 
 ---
 
-## 💬 Interview Explanation
+## 💬 Summary
 
 I built an HTTP-triggered Azure Function that executes code only when a request is made. This demonstrated serverless architecture, where Azure handles compute resources dynamically without requiring a constantly running server.
