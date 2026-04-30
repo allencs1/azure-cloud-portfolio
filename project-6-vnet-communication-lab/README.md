@@ -40,13 +40,13 @@ This applies to both:
 ## 📸 Screenshots
 
 ![VM Overview](../screenshots/vm-overview.png)
-
+---
 ![SSH Working](../screenshots/sshlogin-allowed-after-rule-update.png)
-
+---
 ![SSH Blocked](../screenshots/sshconnection-denied.png)
-
+---
 ![Ping Working](../screenshots/ping-enabled.png)
-
+---
 ![Ping Blocked](../screenshots/ping-inhibited.png)
 
 ---
