@@ -13,17 +13,6 @@ This project demonstrates how to use Azure Monitor to track a virtual machine an
 
 ---
 
-<<<<<<< HEAD
-![VM Running](../screenshots/Azure-monitor-vm.png)
-
-![Alert Rule Created](../screenshots/Alert-rule-created.png)
-
-![Alert Condition](../screenshots/Alert-condition.png)
-
-![Fired Alert](../screenshots/Fired-warning.png)
-
-![Email Alert](../screenshots/email-alert.png)
-
 ## ⚙️ Steps Performed
 
 ### 1. Created Virtual Machine
