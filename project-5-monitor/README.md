@@ -32,6 +32,6 @@ Azure Virtual Machine → Azure Monitor → Alert Rule → Action Group → Emai
 
 ![Alert Condition](../screenshots/Alert-condition.png)
 
-![Fired Alert](../screenshots/fired-warning.png)
+![Fired Alert](../screenshots/Fired-warning.png)
 
-![Email Alert](../screenshots/email-Alert.png)
+![Email Alert](../screenshots/email-alert.png)
