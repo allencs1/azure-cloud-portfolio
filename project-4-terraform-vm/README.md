@@ -1,43 +1,16 @@
 # Project 4: Terraform Azure VM Deployment (Infrastructure as Code)
 
-## 🎯 Objective
-
-Automate the deployment of Azure infrastructure using Terraform instead of manual configuration in the Azure Portal.
-
----
-
-## 🏗️ Architecture
-
-This project provisions:
-
-* Resource Group
-* Virtual Network (VNet)
-* Subnet
-* Public IP Address
-* Network Interface
-* Network Security Group
-* Linux Virtual Machine
+## 📌 Overview
+This project demonstrates how to automate Azure infrastructure deployment using Terraform instead of manually creating resources in the Azure Portal.
 
 ---
 
-## ⚙️ What I Built
-
-I created an infrastructure configuration using Terraform that automatically deployed an Azure virtual machine and supporting network resources.
-
----
-
-## 🧠 What’s Happening Under the Hood
-
-Terraform reads the configuration file and translates it into Azure API calls.
-
-* Each resource block defines infrastructure
-* Terraform creates resources in dependency order
-* A state file tracks what has been created
-* Changes to the file update infrastructure
+## 🏗️ What I Built
+I created a Terraform configuration that deployed an Azure virtual machine and the supporting networking resources needed for access.
 
 ---
 
-## 🔧 Key Commands Used
+## ⚙️ Key Commands Used
 
 ```bash
 terraform init
@@ -48,13 +21,8 @@ terraform destroy
 
 ---
 
-## ✅ Verification
-
-* Terraform successfully created Azure resources
-* VM was accessible via public IP
-* Web server responded correctly
-* Resources were removed using `terraform destroy`
-* Verified deletion in Azure Portal
+## 🔍 How It Works
+Terraform reads the configuration file and translates it into Azure API calls. Each resource block defines part of the infrastructure. Terraform creates resources in dependency order and tracks them in a state file so future changes can be applied consistently.
 
 ---
 
@@ -68,13 +36,12 @@ terraform destroy
 
 ## 🎓 Key Takeaways
 
-* Infrastructure can be defined and versioned using code
-* Terraform state is critical for tracking resources
-* Automation reduces manual errors
-* Cloud resources must be cleaned up to avoid cost
+- Infrastructure can be defined and versioned as code
+- Terraform automates cloud resource deployment
+- The state file tracks created infrastructure
+- Automation reduces manual errors and improves repeatability
 
 ---
 
-## 💬 Interview Explanation
-
-I used Terraform to automate the deployment of Azure infrastructure instead of creating resources manually. This allowed me to define infrastructure as code, apply it consistently, verify deployment, and clean everything up using Terraform commands.
+## 📝 Summary
+I used Terraform to automate the deployment of Azure infrastructure. This project demonstrated Infrastructure as Code by defining resources in configuration files, deploying them consistently, and removing them with Terraform when finished.

@@ -23,3 +23,8 @@ This repository contains hands-on Microsoft Azure projects demonstrating core cl
 
 ### 🟥 Project 4: Terraform VM Deployment (IaC)
 👉 [View Project](project-4-terraform-vm/README.md)
+
+---
+
+### 🟪 Project 5: Azure Monitor Alerts (Monitoring)
+👉 [View Project](project-5-monitor/README.md)

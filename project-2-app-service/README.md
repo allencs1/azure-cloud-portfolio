@@ -1,61 +1,26 @@
 # Project 2: Azure App Service Deployment (PaaS)
 
-## 🎯 Objective
-
-Deploy a Python web application using Azure App Service to understand Platform as a Service (PaaS) and how applications can be hosted without managing infrastructure.
-
----
-
-## 🏗️ Architecture
-
-This project uses:
-
-- Azure App Service  
-- Python Flask Application  
-- Azure-managed runtime environment  
-- Public web endpoint  
+## 📌 Overview
+This project demonstrates how to deploy a Python web application using Azure App Service to understand Platform as a Service (PaaS).
 
 ---
 
-## ⚙️ What I Built
-
-I deployed a Python Flask web application using Azure App Service. Instead of managing a virtual machine, Azure handled the operating system, runtime, and scaling while I focused on deploying and running the application.
-
----
-
-## 🧠 What’s Happening Under the Hood
-
-- Azure provisions and manages the underlying infrastructure  
-- The application runs inside a managed environment  
-- HTTP requests are routed to the application automatically  
-- The app processes requests and returns dynamic responses  
+## 🏗️ What I Built
+I deployed a Python Flask web application using Azure App Service. Azure handled the infrastructure, operating system, and runtime, allowing me to focus on deploying and running the application.
 
 ---
 
-## 🔧 Deployment Concept
-
-With a Virtual Machine (Project 1), I had to:
-- connect via SSH  
-- install software manually  
-- manage the server  
-
-With App Service:
-- no server management  
-- no manual installation  
-- application is deployed directly  
+## ⚙️ Key Commands Used
+No terminal commands were required. This project was completed through the Azure Portal.
 
 ---
 
-## ✅ Verification
-
-- Application deployed successfully  
-- Web app accessible via Azure-provided URL  
-- Application responded to user input  
-- No server configuration required  
+## 🔍 How It Works
+Azure App Service runs the application inside a managed platform. Azure manages the servers, operating system, runtime environment, and basic scaling. Incoming HTTP requests are routed to the application, and the application returns a response through the public web endpoint.
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
 ![App Service Running](../screenshots/appservice-webpage.png)
 
@@ -63,13 +28,12 @@ With App Service:
 
 ## 🎓 Key Takeaways
 
-- Difference between IaaS and PaaS  
-- How Azure App Service removes infrastructure management  
-- How applications are deployed to managed platforms  
-- Benefits of focusing on application logic instead of servers  
+- Difference between IaaS and PaaS
+- App Service removes the need to manage servers directly
+- Applications can be deployed to a managed platform
+- PaaS allows focus on application logic instead of infrastructure
 
 ---
 
-## 💬 Interview Explanation
-
-I deployed a Python Flask application using Azure App Service, which allowed me to run a web application without managing servers or operating systems. Azure handled the infrastructure, scaling, and runtime environment, demonstrating the core concept of Platform as a Service.
+## 📝 Summary
+I deployed a Python Flask application using Azure App Service. This demonstrated Platform as a Service because Azure handled the infrastructure and runtime while I focused on deploying the application.

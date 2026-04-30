@@ -1,53 +1,26 @@
 # Project 5: Azure Monitor Alerts (VM Monitoring)
 
 ## 📌 Overview
-This project demonstrates how to use Azure Monitor to track a virtual machine and configure alert rules that notify you when specific conditions are met.
+This project demonstrates how to monitor a virtual machine and configure alerts using Azure Monitor.
 
 ---
 
-## 🏗️ Architecture
-- Azure Virtual Machine (Linux)
-- Azure Monitor
-- Alert Rules
-- Action Group (Email Notification)
+## 🏗️ What I Built
+I configured Azure Monitor to track a virtual machine and created alert rules based on CPU usage thresholds. I also set up an Action Group to send email notifications when alerts are triggered.
 
 ---
 
-<<<<<<< HEAD
-![VM Running](../screenshots/Azure-monitor-vm.png)
-
-![Alert Rule Created](../screenshots/Alert-rule-created.png)
-
-![Alert Condition](../screenshots/Alert-condition.png)
-
-![Fired Alert](../screenshots/Fired-warning.png)
-
-![Email Alert](../screenshots/email-alert.png)
-
-## ⚙️ Steps Performed
-
-### 1. Created Virtual Machine
-- Deployed a Linux VM in Azure
-- Verified connectivity
-
-### 2. Enabled Azure Monitor
-- Connected VM to Azure Monitor
-
-### 3. Created Alert Rule
-- Defined CPU usage threshold
-- Set evaluation frequency
-
-### 4. Configured Action Group
-- Added email notification
-- Linked to alert rule
-
-### 5. Triggered Alert
-- Simulated high CPU usage
-- Verified alert fired
+## ⚙️ Key Commands Used
+No terminal commands were required. This project was completed through the Azure Portal.
 
 ---
 
-## 📸 Screenshot
+## 🔍 How It Works
+Azure Monitor collects performance metrics from the virtual machine. Alert rules compare those metrics against defined thresholds. When the condition is met, Azure triggers an alert and uses the Action Group to send an email notification.
+
+---
+
+## 📸 Screenshots
 
 ![VM Monitoring](../screenshots/Azure-monitor-vm.png)
 
@@ -63,13 +36,12 @@ This project demonstrates how to use Azure Monitor to track a virtual machine an
 
 ## 🎓 Key Takeaways
 
-- Azure Monitor tracks resource performance using metrics
-- Alerts are triggered when thresholds are exceeded
-- Action Groups define how notifications are delivered
-- Monitoring is essential for maintaining system reliability
+- Azure Monitor tracks resource performance
+- Alerts are triggered based on defined thresholds
+- Action Groups control how notifications are sent
+- Monitoring is important for system reliability and incident response
 
 ---
 
-## 💬 Summary
-
-I configured Azure Monitor to monitor a virtual machine and created alert rules based on CPU usage thresholds. When the threshold was exceeded, the alert triggered and sent an email notification using an Action Group. This demonstrates how monitoring and alerting are used in cloud environments to maintain performance and respond to issues quickly.
+## 📝 Summary
+I used Azure Monitor to track a virtual machine and configured alert rules to notify me when performance thresholds were exceeded. This demonstrated how monitoring and alerting help cloud teams respond to issues quickly.
