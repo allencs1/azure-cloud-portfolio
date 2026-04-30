@@ -75,6 +75,6 @@ terraform destroy
 
 ---
 
-## 💬 Interview Explanation
+## 💬 Summary
 
 I used Terraform to automate the deployment of Azure infrastructure instead of creating resources manually. This allowed me to define infrastructure as code, apply it consistently, verify deployment, and clean everything up using Terraform commands.
