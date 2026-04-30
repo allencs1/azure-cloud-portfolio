@@ -1,31 +1,19 @@
-# Project 5 - Azure Monitoring & Alerts
+# Project 5: Azure Monitor Alerts (VM Monitoring)
 
-## Overview
-This project demonstrates how to monitor an Azure Virtual Machine and configure alerts based on CPU usage. Alerts are triggered when thresholds are exceeded and notifications are sent via email.
+## 📌 Overview
+This project demonstrates how to use Azure Monitor to track a virtual machine and configure alert rules that notify you when specific conditions are met.
 
-## Architecture
-Azure Virtual Machine → Azure Monitor → Alert Rule → Action Group → Email Notification
+---
 
-## Steps Performed
-1. Created Azure Virtual Machine
-2. Enabled monitoring metrics
-3. Created alert rule using Percentage CPU
-4. Configured threshold (CPU > 10%)
-5. Set aggregation to Average
-6. Created action group with email notification
-7. Generated CPU load using Linux commands
-8. Verified alert triggered in Azure Monitor
-9. Confirmed alert received via email
-
-## Key Concepts
+## 🏗️ Architecture
+- Azure Virtual Machine (Linux)
 - Azure Monitor
-- Metric-based alerts
-- Threshold and aggregation
-- Action groups
-- Real-time monitoring
+- Alert Rules
+- Action Group (Email Notification)
 
-## Screenshots
+---
 
+<<<<<<< HEAD
 ![VM Running](../screenshots/Azure-monitor-vm.png)
 
 ![Alert Rule Created](../screenshots/Alert-rule-created.png)
@@ -35,3 +23,53 @@ Azure Virtual Machine → Azure Monitor → Alert Rule → Action Group → Emai
 ![Fired Alert](../screenshots/Fired-warning.png)
 
 ![Email Alert](../screenshots/email-alert.png)
+
+## ⚙️ Steps Performed
+
+### 1. Created Virtual Machine
+- Deployed a Linux VM in Azure
+- Verified connectivity
+
+### 2. Enabled Azure Monitor
+- Connected VM to Azure Monitor
+
+### 3. Created Alert Rule
+- Defined CPU usage threshold
+- Set evaluation frequency
+
+### 4. Configured Action Group
+- Added email notification
+- Linked to alert rule
+
+### 5. Triggered Alert
+- Simulated high CPU usage
+- Verified alert fired
+
+---
+
+## 📸 Screenshot
+
+![VM Monitoring](../screenshots/Azure-monitor-vm.png)
+
+![Alert Rule](../screenshots/Alert-rule-created.png)
+
+![Alert Condition](../screenshots/Alert-condition.png)
+
+![Alert Fired](../screenshots/Fired-warning.png)
+
+![Email Alert](../screenshots/email-alert.png)
+
+---
+
+## 🎓 Key Takeaways
+
+- Azure Monitor tracks resource performance using metrics
+- Alerts are triggered when thresholds are exceeded
+- Action Groups define how notifications are delivered
+- Monitoring is essential for maintaining system reliability
+
+---
+
+## 💬 Summary
+
+I configured Azure Monitor to monitor a virtual machine and created alert rules based on CPU usage thresholds. When the threshold was exceeded, the alert triggered and sent an email notification using an Action Group. This demonstrates how monitoring and alerting are used in cloud environments to maintain performance and respond to issues quickly.
