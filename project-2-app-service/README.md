@@ -70,6 +70,6 @@ With App Service:
 
 ---
 
-## 💬 Interview Explanation
+## 💬 Summary
 
 I deployed a Python Flask application using Azure App Service, which allowed me to run a web application without managing servers or operating systems. Azure handled the infrastructure, scaling, and runtime environment, demonstrating the core concept of Platform as a Service.
