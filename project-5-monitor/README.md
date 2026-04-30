@@ -26,14 +26,12 @@ Azure Virtual Machine → Azure Monitor → Alert Rule → Action Group → Emai
 
 ## Screenshots
 
-![VM Running](../screenshots/Azure-Monitoring-VM.png)
+![VM Running](../screenshots/Azure-monitor-vm.png)
 
-![Alert Rule Created](../screenshots/Alert-Rule-Created.png)
+![Alert Rule Created](../screenshots/Alert-rule-created.png)
 
-![Alert Condition](../screenshots/Alert-Condition.png)
+![Alert Condition](../screenshots/Alert-condition.png)
 
-![Action Group](../screenshots/Action-Group.png)
+![Fired Alert](../screenshots/fired-warning.png)
 
-![Fired Alert](../screenshots/Fired-Alert.png)
-
-![Email Alert](../screenshots/Email-Alert.png)
+![Email Alert](../screenshots/email-Alert.png)
