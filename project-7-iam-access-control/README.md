@@ -43,13 +43,11 @@ Permissions do not change the current state of a resource. For example, if a vir
 
 ## 📸 Screenshots
 
-![Lab User Created](../screenshots/labuser-created.png)
+![Permission Denied Cloudshell](../screenshots/iam-nopermission-cloudshell.png)
 
-![Reader Role Assigned](../screenshots/reader-role-assigned.png)
+![Permission Denied](../screenshots/iam-nopermission.png)
 
-![Permission Denied](../screenshots/permission-denied.png)
-
-![VM Control Allowed](../screenshots/vm-control-allowed.png)
+![remove permission](../screenshots/iam-removeperm-cloudshell.png)
 
 ![add permission](../screenshots/iam-addpermission-cloudshell.png)
 
