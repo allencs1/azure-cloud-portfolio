@@ -1,0 +1,8 @@
+Example of how access would be added in a production environment
+
+
+az role assignment create \
+  --assignee labuser1@chrisallen1979yahoo.onmicrosoft.com \
+  --role "Virtual Machine Contributor" \
+  --scope "/subscriptions/852f6425-a0f9-43c8-a132-239db2ac9586/resourceGroups/appservice-rg"
+  
