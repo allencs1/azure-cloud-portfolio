@@ -51,7 +51,7 @@ Permissions do not change the current state of a resource. For example, if a vir
 
 ![VM Control Allowed](../screenshots/vm-control-allowed.png)
 
-![Cloud Shell RBAC Command](../screenshots/cloudshell-rbac-command.png)
+![add permission](../screenshots/iam-addpermission-cloudshell.png)
 
 ---
 
