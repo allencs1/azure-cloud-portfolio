@@ -82,9 +82,9 @@ Terraform tracks all deployed resources in the Terraform state file, allowing in
 
 ## 📸 Screenshots
 
-### Terraform Apply
+![Terraform apply](../screenshots/Terraform-apply-success.png)
 
-(Add screenshot)
+
 
 ### Linux VM Running
 
