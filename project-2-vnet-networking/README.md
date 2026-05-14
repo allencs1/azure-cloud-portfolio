@@ -71,7 +71,9 @@ Private Network Communication
    │
    ▼
 VM2 (Private/Internal Access)
+
 ```
+
 Traffic was tested between:
 
 - Laptop → VM1 using public IP and SSH
@@ -106,24 +108,14 @@ This project demonstrated:
 ## 📸 Screenshots
 
 ![VM Overview](../screenshots/vm-overview.png)
-
-
-### SSH Working
-
-(Add screenshot)
-
-### SSH Blocked
-
-(Add screenshot)
-
-### Ping Working
-
-(Add screenshot)
-
-### Ping Blocked
-
-(Add screenshot)
-
+---
+![SSH Working](../screenshots/sshlogin-allowed-after-rule-update.png)
+---
+![SSH Blocked](../screenshots/sshconnection-denied.png)
+---
+![Ping Working](../screenshots/ping/enabled.png)
+---
+![Ping Blocked](../screenshots/ping-inhibited.png)
 ---
 
 ## 🔑 Key Takeaways
