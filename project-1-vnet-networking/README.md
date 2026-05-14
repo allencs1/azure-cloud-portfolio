@@ -1,4 +1,4 @@
-# ☁️ Azure Project 2 — Azure Networking & Security Lab (VNet + NSG)
+# ☁️ Azure Project 1 — Azure Networking & Security Lab (VNet + NSG)
 
 ## 📌 Project Overview
 
