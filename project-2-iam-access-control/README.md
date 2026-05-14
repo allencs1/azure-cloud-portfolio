@@ -102,22 +102,13 @@ Permissions are applied based on RBAC scope and do not retroactively change the 
 
 ## 📸 Screenshots
 
-### Permission Denied Cloud Shell
-
-(Add screenshot)
-
-### Permission Denied
-
-(Add screenshot)
-
-### Remove Permission
-
-(Add screenshot)
-
-### Add Permission
-
-(Add screenshot)
-
+![Permission Denied Cloud Shell](../screnshots/iam-nopermission-cloudshell.png)
+---
+![Permission Denied](../screenshots/iam-nopermission.png)
+---
+![Remove Permission](../screenshots/iam-removeperm-cloudshell.png)
+---
+![Add Permission](../screenshots/iam-addpermission-cloudshell.png)
 ---
 
 ## 🔑 Key Takeaways
